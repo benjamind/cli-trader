@@ -1,7 +1,7 @@
 {
   "name": "cli-trader",
   "description": "A simple commandline trading tool for BTCe",
-  "homepage": "https://github.com/docpad/docpad-plugin-paged",
+  "homepage": "https://github.com/benjamind/cli-trader",
   "keywords": [
     "trade",
     "cli",

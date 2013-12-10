@@ -1,0 +1,44 @@
+{
+  "name": "cli-trader",
+  "description": "A simple commandline trading tool for BTCe",
+  "homepage": "https://github.com/docpad/docpad-plugin-paged",
+  "keywords": [
+    "trade",
+    "cli",
+    "commandline",
+    "bitcoin",
+    "ltc",
+    "btc",
+    "btce"
+  ],
+  "author": "Ben Delarre <ben@delarre.net> (http://www.delarre.net)",
+  "maintainers": [
+    "Ben Delarre <ben@delarre.net> (https://github.com/benjamind)"
+  ],
+  "contributors": [
+    "Ben Delarre <ben@delarre.net> (https://github.com/benjamind)"
+  ],
+  "bugs": {
+    "url": "https://github.com/benjamind/cli-trader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/benjamind/cli-trader.git"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "btce": "~0.4.3",
+    "commander": "~2.1.0",
+    "winston": "~0.7.2",
+    "async": "~0.2.9",
+    "cli-table": "~0.2.0"
+  },
+  "bin": {
+    "cli-trader": "bin/cli-trader.bin.js"
+  }
+}
